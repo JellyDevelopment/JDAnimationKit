@@ -74,7 +74,7 @@ If you want mutiple animation at one time.
 self.squareView.rotateTo(90).moveXBy(50).opacityTo(0)
 ```
 
-All methods has got more arguments with default values. You don't need indicate all, only the params that your need.
+All methods have got more arguments with default values. You don't need indicate all, only the params that your need.
 
 ``` 
 self.squareView.rotateTo(90).moveXBy(50, delay: 2.0, timing: .EaseIn)
