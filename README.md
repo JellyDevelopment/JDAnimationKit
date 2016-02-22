@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/JDAnimationKit.svg?style=flat)](http://cocoapods.org/pods/JDAnimationKit)
 [![Platform](https://img.shields.io/cocoapods/p/JDAnimationKit.svg?style=flat)](http://cocoapods.org/pods/JDAnimationKit)
 
-**JDAnimationKit** write with *Swift* is designed to be extremely easy to use. You can animate your UI withe less lines of code. This library use internaly [POP](https://github.com/facebook/pop) framework, an extensible iOS and OS X animation library, useful for physics-based interactions.
+**JDAnimationKit** is designed to be extremely easy to use. You can animate your UI withe less lines of code. This library use internaly [POP](https://github.com/facebook/pop) framework, an extensible iOS and OS X animation library, useful for physics-based interactions.
 
 ### Supported OS & SDK Versions
 
@@ -61,7 +61,7 @@ Import JDAnimationKit in proper place.
 import JDAnimationKit
 ```
 
-You can animate **CALayers** and **UIViews** (and subclasses). Only must to add the animation you want after element.
+You can animate **CALayers** and **UIViews** (and subclasses). Only you add the animation you want after element.
 ``` 
 self.squareView.rotateTo(90)
 ```
@@ -80,16 +80,16 @@ self.squareView.rotateTo(90).moveXBy(50, delay: 2.0, timing: .EaseIn)
 ## Configure your animations
 
 You can adjust the parameters of your animations:
-##### duration : *Double*
+#### -> duration : *Double*
 Indicate the duration of animation *(Default: **0.5**)*
 
-##### spring : *Bool*
+#### -> spring : *Bool*
 Indicate if apply physics effects to animate *(Default: **false**)*
 
-##### springConfig : *JDSpringConfig (struct)*
+#### -> springConfig : *JDSpringConfig (struct)*
 If ```spring``` property is ```true```, configure the physics params (```bounciness``` and ```speed```) *(Default: bounciness: **10**, speed: **10**)*
 
-##### timing : *JDTimingFunction (enum)*
+#### -> timing : *JDTimingFunction (enum)*
 The animation-timing-function specifies the speed curve of an animation *(Default: **.None**)*
 
 **Values:**
@@ -99,10 +99,10 @@ The animation-timing-function specifies the speed curve of an animation *(Defaul
 * Linear
 * None
 
-##### delay : *Double*
+#### -> delay : *Double*
 You can execute the animation after X seconds. *(Default: **0**)*
 
-##### key : *String*
+#### -> key : *String*
 Identify the animation
 
 ## Anchoring
