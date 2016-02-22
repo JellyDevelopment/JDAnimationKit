@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'JDAnimationKit_Example', :exclusive => true do
+  pod 'JDAnimationKit', :path => '../'
+end
+
+post_install do |installer|
+    `find Pods -regex 'Pods/pop.*\\.h' -print0 | xargs -0 sed -i '' 's/\\(<\\)pop\\/\\(.*\\)\\(>\\)/\\"\\2\\"/'`
+end
+
+target 'JDAnimationKit_Tests', :exclusive => true do
+  pod 'JDAnimationKit', :path => '../'
+
+  
+end
