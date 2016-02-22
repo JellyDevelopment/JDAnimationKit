@@ -15,7 +15,10 @@
 
 ![Preview](http://juanpecatalan.com/JDAnimationKit/beetripper_1.gif)
 ![Preview](http://juanpecatalan.com/JDAnimationKit/beetripper_2.gif)
+######
 *[Beetripper App's screenshots](http://beetripper.com)*
+
+####
 
 <table>
 <tr>
