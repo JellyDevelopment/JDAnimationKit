@@ -81,16 +81,16 @@ self.squareView.rotateTo(90).moveXBy(50, delay: 2.0, timing: .EaseIn)
 
 You can adjust the parameters of your animations:
 #### -> duration : *Double*
-Indicate the duration of animation *(Default: **0.5**)*
+Indicate the duration of animation *(Default: 0.5)*
 
 #### -> spring : *Bool*
-Indicate if apply physics effects to animate *(Default: **false**)*
+Indicate if apply physics effects to animate *(Default: false)*
 
 #### -> springConfig : *JDSpringConfig (struct)*
-If ```spring``` property is ```true```, configure the physics params (```bounciness``` and ```speed```) *(Default: bounciness: **10**, speed: **10**)*
+If ```spring``` property is ```true```, configure the physics params (```bounciness``` and ```speed```) *(Default: bounciness: 10, speed: 10)*
 
 #### -> timing : *JDTimingFunction (enum)*
-The animation-timing-function specifies the speed curve of an animation *(Default: **.None**)*
+The animation-timing-function specifies the speed curve of an animation *(Default: .None)*
 
 **Values:**
 * EaseIn
@@ -100,7 +100,7 @@ The animation-timing-function specifies the speed curve of an animation *(Defaul
 * None
 
 #### -> delay : *Double*
-You can execute the animation after X seconds. *(Default: **0**)*
+You can execute the animation after X seconds. *(Default: 0)*
 
 #### -> key : *String*
 Identify the animation
