@@ -13,8 +13,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		74A6ACF4CA3EB64962224994 /* Pods_JDAnimationKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89E74B0A3CBE55E4BABECB2 /* Pods_JDAnimationKit_Tests.framework */; };
-		93BF90D4041A028382BF71DE /* Pods_JDAnimationKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 160BF01784B793F48D748C91 /* Pods_JDAnimationKit_Example.framework */; };
+		8AD0A584FBC487B96481DB9A /* Pods_JDAnimationKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A981A5ADE2BD9F9DB2D7A13 /* Pods_JDAnimationKit_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +27,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		160BF01784B793F48D748C91 /* Pods_JDAnimationKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDAnimationKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		243A47CD8F5852DE4BEAC7B8 /* Pods-JDAnimationKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDAnimationKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDAnimationKit_Tests/Pods-JDAnimationKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2AB9EC533CF11E7F41D66FAC /* Pods-JDAnimationKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDAnimationKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDAnimationKit_Example/Pods-JDAnimationKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		33A145FFD6CF0954669559BA /* JDAnimationKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JDAnimationKit.podspec; path = ../JDAnimationKit.podspec; sourceTree = "<group>"; };
+		3A981A5ADE2BD9F9DB2D7A13 /* Pods_JDAnimationKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDAnimationKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C662A544AF88C499E2238E5 /* Pods-JDAnimationKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDAnimationKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDAnimationKit_Example/Pods-JDAnimationKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JDAnimationKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDAnimationKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +42,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		62ACB2A32C4B81A5D497E0B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		69C045ADB5EBEF6217EADFA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		89FC5D6CBDE322A8C38491AD /* Pods-JDAnimationKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDAnimationKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDAnimationKit_Tests/Pods-JDAnimationKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		8F5E82A55100D066590DF6AD /* Pods-JDAnimationKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDAnimationKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDAnimationKit_Example/Pods-JDAnimationKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F89E74B0A3CBE55E4BABECB2 /* Pods_JDAnimationKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDAnimationKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CEF63097A766D922929D04 /* Pods-JDAnimationKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDAnimationKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDAnimationKit_Example/Pods-JDAnimationKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93BF90D4041A028382BF71DE /* Pods_JDAnimationKit_Example.framework in Frameworks */,
+				8AD0A584FBC487B96481DB9A /* Pods_JDAnimationKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,22 +58,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74A6ACF4CA3EB64962224994 /* Pods_JDAnimationKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42CBC6A1C8F84DEF51C3E824 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				160BF01784B793F48D748C91 /* Pods_JDAnimationKit_Example.framework */,
-				F89E74B0A3CBE55E4BABECB2 /* Pods_JDAnimationKit_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -85,8 +71,8 @@
 				607FACD21AFB9204008FA782 /* Example for JDAnimationKit */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				FD94F9022880F4C4AB5B5E14 /* Pods */,
-				42CBC6A1C8F84DEF51C3E824 /* Frameworks */,
+				E04D7D65EB68E7B0C699AC75 /* Pods */,
+				C2C9988AD168949800F38BDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,13 +134,19 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		FD94F9022880F4C4AB5B5E14 /* Pods */ = {
+		C2C9988AD168949800F38BDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8F5E82A55100D066590DF6AD /* Pods-JDAnimationKit_Example.debug.xcconfig */,
-				2AB9EC533CF11E7F41D66FAC /* Pods-JDAnimationKit_Example.release.xcconfig */,
-				243A47CD8F5852DE4BEAC7B8 /* Pods-JDAnimationKit_Tests.debug.xcconfig */,
-				89FC5D6CBDE322A8C38491AD /* Pods-JDAnimationKit_Tests.release.xcconfig */,
+				3A981A5ADE2BD9F9DB2D7A13 /* Pods_JDAnimationKit_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E04D7D65EB68E7B0C699AC75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7CEF63097A766D922929D04 /* Pods-JDAnimationKit_Example.debug.xcconfig */,
+				3C662A544AF88C499E2238E5 /* Pods-JDAnimationKit_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -166,12 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "JDAnimationKit_Example" */;
 			buildPhases = (
-				1B84C0C18B8269C259D2EB91 /* Check Pods Manifest.lock */,
+				9AEF00E6992DDDE705363D54 /* Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				D7A7FA693CC8DFC51702A760 /* Embed Pods Frameworks */,
-				A6305AD220D06AC0C16C2600 /* Copy Pods Resources */,
+				52C1E04C2A2149429F554167 /* Embed Pods Frameworks */,
+				F53BF809A5C2E2FF97469218 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +178,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "JDAnimationKit_Tests" */;
 			buildPhases = (
-				54B5EF3D22BE840AAF69D92D /* Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				EB6B8D54B4BBDEAF521D8511 /* Embed Pods Frameworks */,
-				85B8565C4F27995F45D3AD66 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -262,67 +251,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1B84C0C18B8269C259D2EB91 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		54B5EF3D22BE840AAF69D92D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		85B8565C4F27995F45D3AD66 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDAnimationKit_Tests/Pods-JDAnimationKit_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A6305AD220D06AC0C16C2600 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDAnimationKit_Example/Pods-JDAnimationKit_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D7A7FA693CC8DFC51702A760 /* Embed Pods Frameworks */ = {
+		52C1E04C2A2149429F554167 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -337,19 +266,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDAnimationKit_Example/Pods-JDAnimationKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB6B8D54B4BBDEAF521D8511 /* Embed Pods Frameworks */ = {
+		9AEF00E6992DDDE705363D54 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDAnimationKit_Tests/Pods-JDAnimationKit_Tests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F53BF809A5C2E2FF97469218 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDAnimationKit_Example/Pods-JDAnimationKit_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -486,9 +430,10 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F5E82A55100D066590DF6AD /* Pods-JDAnimationKit_Example.debug.xcconfig */;
+			baseConfigurationReference = A7CEF63097A766D922929D04 /* Pods-JDAnimationKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				INFOPLIST_FILE = JDAnimationKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -500,9 +445,10 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2AB9EC533CF11E7F41D66FAC /* Pods-JDAnimationKit_Example.release.xcconfig */;
+			baseConfigurationReference = 3C662A544AF88C499E2238E5 /* Pods-JDAnimationKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				INFOPLIST_FILE = JDAnimationKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -514,7 +460,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 243A47CD8F5852DE4BEAC7B8 /* Pods-JDAnimationKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -535,7 +480,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89FC5D6CBDE322A8C38491AD /* Pods-JDAnimationKit_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
