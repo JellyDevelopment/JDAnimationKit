@@ -261,7 +261,7 @@ self.squareView.scaleTo(2, scaleY: 2).didStopAnimation { (node, key, finished, e
 
 * [Jelly Development](https://github.com/JellyDevelopment)
 * Juanpe Catalán, juanpecm@gmail.com
-* David Carrascal, davidlcarrascal@gmail.com
+* David López Carrascal, davidlcarrascal@gmail.com
 
 ## License
 
