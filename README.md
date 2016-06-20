@@ -1,4 +1,4 @@
-![](http://juanpecatalan.com/JDAnimationKit/JDAnimationKit_header.jpg)
+![](http://juanpecatalan.com/JDAnimationKit/JDAnimationKit_header_2.jpg)
 
 [![Version](https://img.shields.io/cocoapods/v/JDAnimationKit.svg?style=flat)](http://cocoapods.org/pods/JDAnimationKit)
 [![License](https://img.shields.io/cocoapods/l/JDAnimationKit.svg?style=flat)](http://cocoapods.org/pods/JDAnimationKit)
