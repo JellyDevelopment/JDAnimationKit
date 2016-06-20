@@ -1,6 +1,5 @@
 ![](http://juanpecatalan.com/JDAnimationKit/JDAnimationKit_header.jpg)
 
-[![CI Status](http://img.shields.io/travis/Juanpe/JDAnimationKit.svg?style=flat)](https://travis-ci.org/Juanpe/JDAnimationKit)
 [![Version](https://img.shields.io/cocoapods/v/JDAnimationKit.svg?style=flat)](http://cocoapods.org/pods/JDAnimationKit)
 [![License](https://img.shields.io/cocoapods/l/JDAnimationKit.svg?style=flat)](http://cocoapods.org/pods/JDAnimationKit)
 [![Platform](https://img.shields.io/cocoapods/p/JDAnimationKit.svg?style=flat)](http://cocoapods.org/pods/JDAnimationKit)
