@@ -8,7 +8,8 @@
 
 ### Supported OS & SDK Versions
 
-* Supported build target - iOS 8.3 (Xcode 7)
+* Xcode 8.1+
+* Swift 3.0+ (version >= 1.1)
 
 ### Demo
 
