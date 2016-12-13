@@ -97,8 +97,8 @@ public protocol JDAnimationNode : class{
     
     func animatableLayer() -> CALayer
     
-    func didStartAnimation(_ startBlock: JDLayerAnimationStartBlock?) -> JDAnimationNode
-    func didStopAnimation(_ stopBlock: JDLayerAnimationStartBlock?) -> JDAnimationNode
+    @discardableResult func didStartAnimation(_ startBlock: JDLayerAnimationStartBlock?) -> JDAnimationNode
+    @discardableResult func didStopAnimation(_ stopBlock: JDLayerAnimationStartBlock?) -> JDAnimationNode
     
     func makeGenericAnimation(_ property: String, toValue: AnyObject, duration: Double, delay: Double, spring: Bool, springConfig: JDSpringConfig, key: String, timing: JDTimingFunction) -> POPAnimation
     
@@ -252,7 +252,7 @@ extension JDAnimationNode{
         )
     }
     
-    internal func _addAnimation(_ animation: POPAnimation, key: String) -> JDAnimationNode{
+    @discardableResult internal func _addAnimation(_ animation: POPAnimation, key: String) -> JDAnimationNode{
         
         self.waitingToStartAnimationsKeys.append(key)
         self.startedAnimationsKeys.append(key)
