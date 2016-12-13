@@ -23,20 +23,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         var frame = self.squareView.frame
         frame.size.width = frame.height
 
         self.squareView.changeAnchorPoint(0, y: 0.5)
             .changeBounds(frame, spring: true)
-            .changeBgColor(UIColor.greenColor())
+            .changeBgColor(UIColor.green)
             .changeAnchorPoint(0, y: 0, delay: 0.6)
             .rotateTo(60, spring: true, springConfig: JDSpringConfig(bounciness: 20, speed: 10), delay:0.7)
             .didStopAnimation { (node, key, finished, error) -> Void in
                 
                 if finished == true{
-                    self.squareView.moveYTo(1000, duration: 0.8, timing: .EaseIn).opacityTo(0, duration: 1)
+                    self.squareView.moveYTo(1000, duration: 0.8, timing: .easeIn).opacityTo(0, duration: 1)
                 }
         }
     }
