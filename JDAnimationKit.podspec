@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "JDAnimationKit"
-s.version          = "1.0.1"
+s.version          = "1.1"
 s.summary          = "You can animate your UI withe less lines of code"
 s.description      = 'JDAnimationKit is designed to be extremely easy to use. You can animate your UI withe less lines of code'
 s.homepage         = 'https://github.com/JellyDevelopment/JDAnimationKit'
