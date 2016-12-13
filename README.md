@@ -8,8 +8,8 @@
 
 ### Supported OS & SDK Versions
 
-* Xcode 8.1+
-* Swift 3.0+ (version >= 1.1)
+* iOS 8.0+
+* Swift 3 (JDAnimationKit 1.0.x), Swift 2.3 (Kingfisher 1.1.x)
 
 ### Demo
 
