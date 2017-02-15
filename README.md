@@ -5,6 +5,7 @@
 [![Platform](https://img.shields.io/badge/platform-iOS-blue.svg?style=flat)](http://cocoapods.org/pods/JDAnimationKit)
 [![Swift3](https://img.shields.io/badge/swift3-compatible-4BC51D.svg?style=flat)](https://developer.apple.com/swift)
 [![CocoaPods](https://img.shields.io/cocoapods/dt/JDAnimationKit.svg)](https://cocoapods.org/pods/JDAnimationKit) [![CocoaPods](https://img.shields.io/cocoapods/dm/JDAnimationKit.svg)](https://cocoapods.org/pods/JDAnimationKit)
+[![codebeat badge](https://codebeat.co/badges/de5febf0-da2a-44ee-b2f9-f0bdd9bf5441)](https://codebeat.co/projects/github-com-juanpe-jdanimationkit)
 
 **JDAnimationKit** is designed to be extremely easy to use. You can animate your UI withe less lines of code. This library use internally [POP](https://github.com/facebook/pop) framework, an extensible iOS and OS X animation library, useful for physics-based interactions.
 
