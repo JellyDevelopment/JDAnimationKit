@@ -11,7 +11,7 @@
 ### Supported OS & SDK Versions
 
 * iOS 8.0+
-* Swift 3 (JDAnimationKit 1.0.x), Swift 2.3 (Kingfisher 1.1.x)
+* Swift 3 (JDAnimationKit 1.0.x), Swift 2.3 (JDAnimationKit 1.1.x)
 
 ### Demo
 
