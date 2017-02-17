@@ -4,8 +4,8 @@
 [![codebeat badge](https://codebeat.co/badges/de5febf0-da2a-44ee-b2f9-f0bdd9bf5441)](https://codebeat.co/projects/github-com-juanpe-jdanimationkit)
 [![Version](https://img.shields.io/cocoapods/v/JDAnimationKit.svg?style=flat)](http://cocoapods.org/pods/JDAnimationKit)
 [![Platform](https://img.shields.io/badge/platform-iOS-blue.svg?style=flat)](http://cocoapods.org/pods/JDAnimationKit)
-[![Swift3](https://img.shields.io/badge/swift3-compatible-4BC51D.svg?style=flat)](https://developer.apple.com/swift)
-[![License](https://img.shields.io/cocoapods/l/JDAnimationKit.svg?style=flat)](http://cocoapods.org/pods/JDAnimationKit)
+[![Swift3](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat)](http://cocoapods.org/pods/JDAnimationKit)
 [![CocoaPods](https://img.shields.io/cocoapods/dt/JDAnimationKit.svg)](https://cocoapods.org/pods/JDAnimationKit) [![CocoaPods](https://img.shields.io/cocoapods/dm/JDAnimationKit.svg)](https://cocoapods.org/pods/JDAnimationKit)
 
 
